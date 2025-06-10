@@ -37,7 +37,9 @@ TFG-RecomendacionPOIs-Clima/
 │   └── utils/                             # Funciones auxiliares como haversine
 └── scripts/
     └── run_full_preprocessing.py         # Script para ejecutar todo el pipeline de preprocesado
+```
 
+---
 ## ⚙️ Requisitos
 
 Este proyecto usa **Python 3.10+** y las siguientes librerías:
@@ -53,6 +55,9 @@ Instálalas con:
 
 ```bash
 pip install -r requirements.txt
+```
+
+---
 
 ## 📊 Modelos desarrollados
 
