@@ -20,6 +20,7 @@ Este proyecto analiza cómo las condiciones meteorológicas (temperatura, lluvia
 ## 🗂️ Estructura del repositorio
 
 ```bash
+
 TFG-RecomendacionPOIs-Clima/
 ├── README.md
 ├── .gitignore
@@ -28,15 +29,20 @@ TFG-RecomendacionPOIs-Clima/
 │   ├── FoursquareGlobalCheckinDataset/    # Datos crudos originales
 │   ├── FoursquareProcessed/               # Datos procesados por ciudad
 │   └── weather/                           # Datos meteorológicos
-├── notebooks/
-│   ├── tfg_data_processing.ipynb          # Procesamiento de POIs y check-ins
-│   └── weather_processing.ipynb           # Preprocesamiento de datos climáticos
-├── src/
-│   ├── data/                              # Scripts de procesamiento de ciudades, POIs y check-ins
-│   ├── weather/                           # Scripts de combinación y limpieza de datos climáticos
-│   └── utils/                             # Funciones auxiliares como haversine
-└── scripts/
-    └── run_full_preprocessing.py         # Script para ejecutar todo el pipeline de preprocesado
+
+├── data-processing/
+│   ├── foursquare-processing.ipynb          # Procesamiento de ciudades, POIs y check-ins
+│   └── weather-processing.ipynb           # Procesamiento de datos climáticos
+
+└── models/
+    ├── baselines/                         # Recomendadores base: aleatorio, popularidad
+    │   ├── popularity_recommender.py
+    │   └── random_recommender.py
+    ├── knn/                               # KNN clásico y con clima
+    │   └── ...
+    └── mf/                                # Factorización de matrices (SGD, re-rank, embeddings clima)
+        └── ...
+   
 ```
 
 ---
