@@ -11,13 +11,13 @@ Curso 2024–2025
 
 ---
 
-## 📚 Descripción
+## Descripción
 
 Este proyecto analiza cómo las condiciones meteorológicas (temperatura, lluvia, viento, etc.) afectan a los sistemas de recomendación contextuales de Puntos de Interés (POIs). Se implementan modelos tradicionales y avanzados de recomendación con y sin contexto climático para evaluar su rendimiento.
 
 ---
 
-## 🗂️ Estructura del repositorio
+## Estructura del repositorio
 
 ```bash
 
@@ -46,7 +46,7 @@ TFG-RecomendacionPOIs-Clima/
 ```
 
 ---
-## ⚙️ Requisitos
+## Requisitos
 
 Este proyecto usa **Python 3.10+** y las siguientes librerías:
 
@@ -65,19 +65,19 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Modelos desarrollados
+## Modelos desarrollados
 
 Los siguientes sistemas de recomendación han sido implementados:
 
-- 🔹 **Recomendador aleatorio**
+- **Recomendador aleatorio**
 
-- 🔹 **Recomendador por popularidad**
+- **Recomendador por popularidad**
 
-- 🔹 **K-Nearest Neighbors (KNN)**
+- **K-Nearest Neighbors (KNN)**
   - Versión clásica
   - Versión con contexto climático (similitud combinada)
 
-- 🔹 **Factorización de matrices**
+- **Factorización de matrices**
   - Clásica con **Stochastic Gradient Descent (SGD)**
   - Con contexto climático mediante:
     - **Ponderación** de las interacciones según clima
@@ -86,7 +86,7 @@ Los siguientes sistemas de recomendación han sido implementados:
 
 ---
 
-## 📈 Evaluación
+## Evaluación
 
 Las métricas utilizadas para evaluar el rendimiento de los modelos incluyen:
 
@@ -103,7 +103,7 @@ Estas métricas fueron calculadas de forma separada en tres ciudades:
 
 ---
 
-## 🧑‍💻 Autoría
+## Autoría
 
 **Lucía Prado Fernández-Vega**  
 TFG dirigido por **Pablo Sánchez Pérez**  
